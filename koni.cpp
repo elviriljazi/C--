@@ -73,6 +73,7 @@ double teoremaPitagores(double a, char shenja, double b)
         break;
     }
     return c;
+    
 }
 void printManual()
 {
