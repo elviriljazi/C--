@@ -8,7 +8,7 @@ int main()
     for (int i = 0; i < 5; i++)
         if (V[i] % 2 == 0)
             numruesi++;
-    cout << numruesi << endl;
+    cout << "Numri elementeve çift të vektorit V është " << numruesi << endl;
 
     return 0;
 }
