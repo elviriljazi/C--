@@ -18,15 +18,15 @@ int main()
     case '0':
         cout << "Rrezja r = ";
         cin >> r;
-        cout << "Lartesia h = ";
+        cout << "Lartësia h = ";
         cin >> h;
         s = teoremaPitagores(r, '+', h);
         llogarit(r,'+',h);
         break;
     case '1':
-        cout << "Lartesia h = ";
+        cout << "Lartësia h = ";
         cin >> h;
-        cout << "Gjeneratrisa (Perftuesja) s = ";
+        cout << "Gjeneratrisa (Përftuesja) s = ";
         cin >> s;
         if (h <= s)
         {
@@ -35,7 +35,7 @@ int main()
         }
         break;
     case '2':
-        cout << "Gjeneratrisa (Perftuesja) s = ";
+        cout << "Gjeneratrisa (Përftuesja) s = ";
         cin >> s;
         cout << "Rrezja r = ";
         cin >> r;
@@ -47,7 +47,7 @@ int main()
         break;
 
     default:
-        cout << "Nuk keni zgjedhur asnje nga menyrat" << endl;
+        cout << "Nuk keni zgjedhur asnjë nga mënyrat" << endl;
         break;
     }
 
@@ -55,8 +55,8 @@ int main()
 }
 void llogarit(double r, double h, double s)
 {
-    cout << "Syprina eshte S ≈ " << (pi * pow(r, 2) * h) / 3 << endl;
-    cout << "Vellimi eshte V ≈ " << pi * r * (r + s) << endl;
+    cout << "Syprina është S ≈ " << (pi * pow(r, 2) * h) / 3 << endl;
+    cout << "Vëllimi është V ≈ " << pi * r * (r + s) << endl;
     return;
 }
 double teoremaPitagores(double a, char shenja, double b)
@@ -77,8 +77,8 @@ double teoremaPitagores(double a, char shenja, double b)
 }
 void printManual()
 {
-    cout << "Programi per llogaritjen Syprines dhe Vellilimit Konit\n"
-         << "0: LLograit sipas rrezes dhe lartesis\n"
+    cout << "Programi për llogaritjen Syprinës dhe Vëllilimit Konit\n"
+         << "0: LLograit sipas rrezes dhe lartësis\n"
          << "1: LLograit sipas lartesis dhe perftueses\n"
          << "2: LLograit sipas perftueses dhe rrezes\n\n"
          << "Zgjedh nje nga menyrat:";
